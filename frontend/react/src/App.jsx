@@ -10,7 +10,8 @@ function App() {
 
 <body>
    <h1>My First Heading</h1>
-   <p>My first paragraph.</p>
+   <p>Bus tracking system</p>
+
    <a href="https://www.example.com">This is a link</a>
 </body>
 )
