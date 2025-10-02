@@ -40,3 +40,37 @@
 .read-the-docs {
   color: #888;
 }
+.app-container {
+  text-align: center;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:first-child {
+  background-color: green;
+  color: white;
+}
+
+button:last-child {
+  background-color: red;
+  color: white;
+}
+
